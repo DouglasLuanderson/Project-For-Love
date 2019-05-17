@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.about, .products{
+	display: flex;
+	justify-content: space-around;
+	background-color: #EFF6F8;
+}
+.about-blockimage{
+	width: 50vw;
+	height: 100%;
+}
+.about-blocktext{
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.about-block-paragraph{
+	width:  25vw;
+	font-size: 1.1em;
+	margin: 0 5vw 5vh 0;
+}
+.products{
+	background-color: #fff;
+}
+.products-blockimages{
+	display: flex;
+	flex-direction: column;
+}
+.products-blockcontent{
+	width: 70vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.products-blockcontent-text{
+	width: 50vw;
+    align-self: flex-start;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 7vw;
+    margin-top: 5vh;
+    color: #DA3F30;
+}
+.products-blockcontent-box{
+	width: 60vw;
+}
+.products-blockcontent-photo{
+	width: 100%;
+}
+.art{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.art-blocktext{
+	width: 35vw;
+}
+.art-blocktext-paragraph{
+	width: 22vw;
+	font-size: 1.1em;
+}
+.art-block-list{
+	width: 7vw;
+	font-weight: bold;
+}
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #DA3F30;
+}
+span{
+	display: flex;
+}
